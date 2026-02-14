@@ -8,42 +8,42 @@ import StickyCTA from "@/components/StickyCTA";
 export const metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: "Gemlik Çilingir | 7/24 Acil Oto & Ev Çilingir Hizmeti",
-    template: "%s | Gemlik Çilingir",
+    default: "Pasa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
+    template: "%s | Pasa Çilingir",
   },
   description:
-    "Gemlik'te 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız. Hemen arayın: 0541 430 37 61",
+    "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız. Hemen arayın: 0541 343 34 90",
   keywords: [
-    "gemlik çilingir",
-    "gemlik anahtarcı",
-    "çilingir gemlik",
-    "gemlik çilingir numarası",
-    "gemlik oto çilingir",
-    "7/24 gemlik çilingir",
-    "acil gemlik çilingir",
+    "mustafakemalpaşa çilingir",
+    "karacabey çilingir",
+    "bursa çilingir",
+    "mustafakemalpaşa anahtarcı",
+    "karacabey anahtarcı",
+    "7/24 çilingir bursa",
+    "acil çilingir mustafakemalpaşa",
   ],
   openGraph: {
     type: "website",
     locale: "tr_TR",
     url: SITE.domain,
-    siteName: "Gemlik Çilingir",
-    title: "Gemlik Çilingir | 7/24 Acil Oto & Ev Çilingir Hizmeti",
+    siteName: "Pasa Çilingir",
+    title: "Pasa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
     description:
-      "Gemlik'te 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız. Hemen arayın: 0541 430 37 61",
+      "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız.",
     images: [
       {
         url: "/logo.png",
         width: 512,
         height: 512,
-        alt: "Gemlik Çilingir Logo",
+        alt: "Pasa Çilingir Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gemlik Çilingir | 7/24 Acil Oto & Ev Çilingir Hizmeti",
+    title: "Pasa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
     description:
-      "Gemlik'te 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız.",
+      "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir.",
     images: ["/logo.png"],
   },
   robots: {

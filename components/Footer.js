@@ -9,11 +9,11 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <h3 className="mb-4 text-lg font-bold text-[#F5B301]">
-              Gemlik Çilingir
+              Pasa Çilingir
             </h3>
             <p className="text-sm text-white/90">
-              7/24 Gemlik çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar
-              içinde kapınızdayız.
+              7/24 Mustafakemalpaşa ve Karacabey çilingir hizmeti. Ev, oto, kasa
+              çilingir. Dakikalar içinde kapınızdayız.
             </p>
           </div>
           <div>
@@ -51,15 +51,15 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-bold text-[#F5B301]">İletişim</h3>
             <p className="text-sm text-white/90">
-              Hamidiye, Cumhuriyet Cd. No:62
+              Barış mahallesi, Fatih Cd. No:16
               <br />
-              16600 Gemlik/Bursa
+              16535 Mustafakemalpaşa/Bursa
             </p>
             <a
-              href="tel:+905414303761"
+              href="tel:+905413433490"
               className="mt-2 inline-block font-bold text-[#F5B301] hover:underline"
             >
-              0541 430 37 61
+              0541 343 34 90
             </a>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Footer() {
           </Link>
         </div>
         <p className="mt-4 text-center text-sm text-white/70">
-          © {currentYear} Gemlik Çilingir. Tüm hakları saklıdır.
+          © {currentYear} Pasa Çilingir. Tüm hakları saklıdır.
         </p>
       </div>
     </footer>

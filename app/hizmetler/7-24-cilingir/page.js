@@ -5,11 +5,11 @@ import ServiceLayout from "@/components/ServiceLayout";
 export const metadata = {
   title: "7/24 Çilingir Servisi",
   description:
-    "7/24 gemlik çilingir hizmeti. Gece yarısı, bayram, tatil fark etmez. Gemlik çilingir yorumlarında 5 yıldız. Hemen arayın: 0541 430 37 61",
+    "7/24 çilingir hizmeti. Mustafakemalpaşa ve Karacabey genelinde gece yarısı, bayram, tatil fark etmez. Hemen arayın: 0541 343 34 90",
   openGraph: {
-    title: "7/24 Çilingir Servisi | Gemlik Çilingir",
+    title: "7/24 Çilingir Servisi | Pasa Çilingir",
     description:
-      "7/24 gemlik çilingir - Her an yanınızdayız. Gece gündüz hizmet.",
+      "7/24 çilingir - Mustafakemalpaşa ve Karacabey'de her an yanınızdayız.",
     images: ["/logo.png"],
   },
 };
@@ -17,8 +17,8 @@ export const metadata = {
 export default function YediYirmiDortCilingirPage() {
   return (
     <ServiceLayout
-      title="7/24 Gemlik Çilingir Servisi"
-      description="7/24 gemlik çilingir hizmeti. Gece yarısı, bayram, tatil fark etmez. Gemlik çilingir yorumlarında 5 yıldız alan ekibimiz her an hazır."
+      title="7/24 Çilingir Servisi"
+      description="7/24 çilingir hizmeti. Mustafakemalpaşa ve Karacabey genelinde gece yarısı, bayram, tatil fark etmez. Her an hazır."
       imageSrc="/images/clg-img-6.jpg"
       imageAlt="7/24 çilingir servisi"
     >
@@ -26,7 +26,7 @@ export default function YediYirmiDortCilingirPage() {
         <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-6.jpg"
-            alt="7/24 gemlik çilingir"
+            alt="7/24 çilingir servisi"
             width={800}
             height={450}
             className="h-auto max-h-80 w-full object-cover"
@@ -34,12 +34,12 @@ export default function YediYirmiDortCilingirPage() {
           />
         </div>
         <p className="text-lg leading-relaxed">
-          7/24 gemlik çilingir hizmeti ile her an yanınızdayız. Gece yarısı
-          kapıda mı kaldınız? Bayramda acil çilingir mi lazım? Bir telefon
-          kadar uzağınızdayız. Hemen arayın, dakikalar içinde kapınızdayız.
+          7/24 çilingir hizmeti ile Mustafakemalpaşa ve Karacabey genelinde her
+          an yanınızdayız. Gece yarısı kapıda mı kaldınız? Bayramda acil çilingir
+          mi lazım? Hemen arayın, dakikalar içinde kapınızdayız.
         </p>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Neden 7/24 Gemlik Çilingir?
+          Neden 7/24 Çilingir?
         </h2>
         <ul className="list-disc space-y-2 pl-6">
           <li>Kesintisiz hizmet - Gece gündüz</li>
@@ -49,12 +49,12 @@ export default function YediYirmiDortCilingirPage() {
           <li>5 yıldız müşteri memnuniyeti</li>
         </ul>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Gemlik Çilingir Yorumlar
+          Müşteri Değerlendirmeleri
         </h2>
         <p className="text-[#2E2E2E]">
-          Gemlik çilingir yorumlarında 5.0 puan ve 48 müşteri değerlendirmesi.
-          Acil çilingir mi lazım? Şimdi arayın. Ev, oto, kasa - tüm çilingir
-          ihtiyaçlarınızda 7/24 hizmet.
+          Google yorumlarında 5.0 puan ve 48 müşteri değerlendirmesi. Acil
+          çilingir mi lazım? Şimdi arayın. Ev, oto, kasa - tüm çilingir
+          ihtiyaçlarınızda Mustafakemalpaşa ve Karacabey genelinde 7/24 hizmet.
         </p>
         <div className="rounded-xl bg-[#0A2540] p-6 text-white">
           <p className="mb-4 text-lg font-semibold">

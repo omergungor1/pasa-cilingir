@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { SITE, MAHALLELER } from "@/lib/constants";
+import {
+  SITE,
+  MUSTAFAKEMALPASA_MAHALLELER,
+  KARACABEY_MAHALLELER,
+} from "@/lib/constants";
 
 export default function HomePage() {
   return (
@@ -18,14 +22,14 @@ export default function HomePage() {
         </div>
         <div className="relative mx-auto max-w-6xl px-4 text-center">
           <h1 className="mb-4 text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Gemlik Çilingir
+            Bursa Mustafakemalpaşa & Karacabey Çilingir
           </h1>
           <p className="mb-6 text-xl text-[#F5B301] md:text-2xl">
             Bir telefon kadar uzağınızdayız
           </p>
           <p className="mb-8 max-w-2xl mx-auto text-lg text-white/90">
-            Hemen arayın, dakikalar içinde kapınızdayız. 7/24 Gemlik çilingir
-            hizmeti ile yanınızdayız.
+            Hemen arayın, dakikalar içinde kapınızdayız. 7/24 Mustafakemalpaşa ve
+            Karacabey çilingir hizmeti ile yanınızdayız.
           </p>
           <p className="mb-8 text-lg font-semibold text-white">
             Acil çilingir mi lazım? Şimdi arayın!
@@ -60,14 +64,14 @@ export default function HomePage() {
       <section id="hizmetler" className="bg-white py-16 md:py-20">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="mb-12 text-center text-2xl font-bold text-[#0A2540] md:text-3xl">
-            Gemlik Çilingir Hizmetlerimiz
+            Mustafakemalpaşa & Karacabey Çilingir Hizmetlerimiz
           </h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <article className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-lg transition hover:shadow-xl">
               <div className="relative h-48">
                 <Image
                   src="/images/clg-img-2.jpg"
-                  alt="Ev çilingir hizmeti - Gemlik"
+                  alt="Ev çilingir hizmeti - Mustafakemalpaşa Karacabey"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -79,10 +83,10 @@ export default function HomePage() {
                   Ev Çilingir Hizmeti
                 </h3>
                 <p className="mb-4 text-[#2E2E2E]">
-                  Gemlik ev çilingir hizmeti ile kapınızda. Anahtar kilit
-                  sorunlarınızda hız, güven ve deneyimle yanınızdayız. Orhaniye,
-                  Küçükkumla, Kurşunlu dahil tüm Gemlik mahallelerine hizmet
-                  veriyoruz.
+                  Mustafakemalpaşa ve Karacabey ev çilingir hizmeti ile kapınızda.
+                  Anahtar kilit sorunlarınızda hız, güven ve deneyimle yanınızdayız.
+                  Hamidiye, Barış, Gazi, Emirsultan dahil tüm mahallelere 7/24
+                  hizmet veriyoruz.
                 </p>
                 <Link
                   href="/hizmetler/ev-cilingir"
@@ -97,7 +101,7 @@ export default function HomePage() {
               <div className="relative h-48">
                 <Image
                   src="/images/clg-img-3.webp"
-                  alt="Acil çilingir - Gemlik"
+                  alt="Acil çilingir - Mustafakemalpaşa Karacabey"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -109,9 +113,8 @@ export default function HomePage() {
                   Acil Çilingir
                 </h3>
                 <p className="mb-4 text-[#2E2E2E]">
-                  Acil gemlik çilingir ihtiyacınızda 7/24 yanınızdayız. Gece
-                  gündüz demeden dakikalar içinde adresinizde. Umurbey, Adliye
-                  Mahallesi, Balıkpazarı çilingir hizmeti.
+                  Acil çilingir ihtiyacınızda 7/24 yanınızdayız. Mustafakemalpaşa ve
+                  Karacabey genelinde gece gündüz dakikalar içinde adresinizde.
                 </p>
                 <Link
                   href="/hizmetler/acil-cilingir"
@@ -126,7 +129,7 @@ export default function HomePage() {
               <div className="relative h-48">
                 <Image
                   src="/images/clg-img-4.jpg"
-                  alt="Oto çilingir - Gemlik"
+                  alt="Oto çilingir - Mustafakemalpaşa Karacabey"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -138,8 +141,8 @@ export default function HomePage() {
                   Oto Çilingir
                 </h3>
                 <p className="mb-4 text-[#2E2E2E]">
-                  Gemlik oto çilingir hizmeti. Anahtar kilitte kaldı mı? Araç
-                  kilidi açılmıyor mu? Gemlik çilingir numarası ile hemen arayın,
+                  Mustafakemalpaşa ve Karacabey oto çilingir hizmeti. Anahtar
+                  kilitte kaldı mı? Araç kilidi açılmıyor mu? Hemen arayın,
                   profesyonel ekip dakikalar içinde yanınızda.
                 </p>
                 <Link
@@ -155,7 +158,7 @@ export default function HomePage() {
               <div className="relative h-48">
                 <Image
                   src="/images/clg-img-5.webp"
-                  alt="Kasa çilingir - Gemlik"
+                  alt="Kasa çilingir - Mustafakemalpaşa Karacabey"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -167,9 +170,9 @@ export default function HomePage() {
                   Kasa Çilingir
                 </h3>
                 <p className="mb-4 text-[#2E2E2E]">
-                  Gemlik kasa çilingir hizmeti. Kasa açma, şifre sıfırlama,
-                  elektronik kasa tamiri. İşletmeniz veya eviniz için güvenilir
-                  kasa çilingir çözümleri.
+                  Mustafakemalpaşa ve Karacabey kasa çilingir hizmeti. Kasa açma,
+                  şifre sıfırlama, elektronik kasa tamiri. İşletmeniz veya eviniz
+                  için güvenilir kasa çilingir çözümleri.
                 </p>
                 <Link
                   href="/hizmetler/kasa-cilingir"
@@ -184,7 +187,7 @@ export default function HomePage() {
               <div className="relative h-48">
                 <Image
                   src="/images/clg-img-6.jpg"
-                  alt="7/24 çilingir servisi - Gemlik"
+                  alt="7/24 çilingir servisi - Mustafakemalpaşa Karacabey"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -196,9 +199,9 @@ export default function HomePage() {
                   7/24 Çilingir Servisi
                 </h3>
                 <p className="mb-4 text-[#2E2E2E]">
-                  7/24 gemlik çilingir hizmeti. Gece yarısı, bayram, tatil
-                  fark etmez. Gemlik çilingir yorumlarında 5 yıldız alan
-                  ekibimiz her an hazır.
+                  7/24 çilingir hizmeti. Gece yarısı, bayram, tatil fark etmez.
+                  Mustafakemalpaşa ve Karacabey genelinde yorumlarında 5 yıldız
+                  alan ekibimiz her an hazır.
                 </p>
                 <Link
                   href="/hizmetler/7-24-cilingir"
@@ -215,24 +218,45 @@ export default function HomePage() {
       <section className="bg-gray-50 py-16 md:py-20">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="mb-12 text-center text-2xl font-bold text-[#0A2540] md:text-3xl">
-            Hizmet Verdiğimiz Gemlik Mahalleleri
+            Hizmet Bölgelerimiz: Mustafakemalpaşa & Karacabey
           </h2>
           <p className="mb-8 max-w-3xl mx-auto text-center text-[#2E2E2E]">
-            Gemlik çilingir hizmetimiz tüm ilçe genelinde. Orhaniye Mahallesi
-            Gemlik çilingir hizmeti, Küçükkumla çilingir, Kurşunlu çilingir,
-            Umurbey çilingir, Adliye Mahallesi çilingir, Balıkpazarı çilingir,
-            Eşref Dinçer Mahallesi çilingir dahil tüm bölgelere hızlı ulaşıyoruz.
+            Bursa Mustafakemalpaşa ve Karacabey ilçelerinde 7/24 çilingir
+            hizmeti. Hamidiye, Barış, Gazi, Emirsultan dahil tüm mahallelere
+            hızlı ulaşıyoruz.
           </p>
-          <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
-            {MAHALLELER.map((mahalle) => (
-              <li
-                key={mahalle}
-                className="rounded-lg bg-white p-4 text-center font-medium text-[#0A2540] shadow"
-              >
-                {mahalle} çilingir
-              </li>
-            ))}
-          </ul>
+          <div className="space-y-8">
+            <div>
+              <h3 className="mb-4 text-center text-lg font-bold text-[#0A2540]">
+                Mustafakemalpaşa Mahalleleri
+              </h3>
+              <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
+                {MUSTAFAKEMALPASA_MAHALLELER.map((mahalle) => (
+                  <li
+                    key={mahalle}
+                    className="rounded-lg bg-white p-4 text-center font-medium text-[#0A2540] shadow"
+                  >
+                    {mahalle} çilingir
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="mb-4 text-center text-lg font-bold text-[#0A2540]">
+                Karacabey Mahalleleri
+              </h3>
+              <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
+                {KARACABEY_MAHALLELER.map((mahalle) => (
+                  <li
+                    key={mahalle}
+                    className="rounded-lg bg-white p-4 text-center font-medium text-[#0A2540] shadow"
+                  >
+                    {mahalle} çilingir
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
           <div className="mt-8 text-center">
             <Link
               href="/hizmet-bolgelerimiz"
@@ -247,7 +271,7 @@ export default function HomePage() {
       <section className="bg-white py-16 md:py-20">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="mb-12 text-center text-2xl font-bold text-[#0A2540] md:text-3xl">
-            Neden Gemlik Çilingir?
+            Neden Pasa Çilingir?
           </h2>
           <div className="grid gap-8 md:grid-cols-3">
             <div className="rounded-xl bg-[#0A2540] p-8 text-center text-white">
@@ -283,7 +307,7 @@ export default function HomePage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Gemlik Çilingir - Konum"
+              title="Pasa Çilingir - Konum"
             />
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -323,8 +347,8 @@ export default function HomePage() {
             Bir telefon kadar uzağınızdayız
           </h2>
           <p className="mb-6 text-lg text-white/90">
-            Hemen arayın, dakikalar içinde kapınızdayız. 7/24 Gemlik çilingir
-            hizmeti.
+            Hemen arayın, dakikalar içinde kapınızdayız. 7/24 Mustafakemalpaşa ve
+            Karacabey çilingir hizmeti.
           </p>
           <a
             href={`tel:${SITE.phone}`}

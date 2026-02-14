@@ -5,11 +5,11 @@ import ServiceLayout from "@/components/ServiceLayout";
 export const metadata = {
   title: "Acil Çilingir",
   description:
-    "Acil gemlik çilingir hizmeti 7/24. Gece gündüz dakikalar içinde kapınızdayız. Umurbey, Adliye, Balıkpazarı dahil. Hemen arayın: 0541 430 37 61",
+    "Acil çilingir hizmeti 7/24. Mustafakemalpaşa ve Karacabey genelinde gece gündüz dakikalar içinde kapınızdayız. Hemen arayın: 0541 343 34 90",
   openGraph: {
-    title: "Acil Çilingir | Gemlik Çilingir",
+    title: "Acil Çilingir | Pasa Çilingir",
     description:
-      "Acil gemlik çilingir - 7/24 yanınızdayız. Dakikalar içinde kapınızdayız.",
+      "Acil çilingir - Mustafakemalpaşa ve Karacabey'de 7/24 yanınızdayız.",
     images: ["/logo.png"],
   },
 };
@@ -17,8 +17,8 @@ export const metadata = {
 export default function AcilCilingirPage() {
   return (
     <ServiceLayout
-      title="Acil Gemlik Çilingir"
-      description="Acil gemlik çilingir ihtiyacınızda 7/24 yanınızdayız. Gece gündüz demeden dakikalar içinde adresinizde. Hemen arayın, kapınızdayız."
+      title="Acil Çilingir - Mustafakemalpaşa & Karacabey"
+      description="Acil çilingir ihtiyacınızda 7/24 yanınızdayız. Mustafakemalpaşa ve Karacabey genelinde gece gündüz dakikalar içinde adresinizde."
       imageSrc="/images/clg-img-3.webp"
       imageAlt="Acil çilingir hizmeti"
     >
@@ -26,7 +26,7 @@ export default function AcilCilingirPage() {
         <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-3.webp"
-            alt="Acil gemlik çilingir"
+            alt="Acil çilingir Mustafakemalpaşa Karacabey"
             width={800}
             height={450}
             className="h-auto max-h-80 w-full object-cover"
@@ -34,12 +34,12 @@ export default function AcilCilingirPage() {
           />
         </div>
         <p className="text-lg leading-relaxed">
-          Acil çilingir mi lazım? Gemlik çilingir numarası ile hemen arayın.
-          Gece yarısı, bayram, tatil fark etmez. 7/24 gemlik çilingir ekibimiz
-          her an hazır. Bir telefon kadar uzağınızdayız.
+          Acil çilingir mi lazım? Hemen arayın. Mustafakemalpaşa ve Karacabey
+          genelinde gece yarısı, bayram, tatil fark etmez. 7/24 çilingir ekibimiz
+          her an hazır.
         </p>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Acil Gemlik Çilingir Ne Zaman Gerekir?
+          Acil Çilingir Ne Zaman Gerekir?
         </h2>
         <ul className="list-disc space-y-2 pl-6">
           <li>Anahtar evde kaldı, kapı kilitli</li>
@@ -49,13 +49,11 @@ export default function AcilCilingirPage() {
           <li>Gece yarısı kilit sorunu</li>
         </ul>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Neden Acil Gemlik Çilingir?
+          Neden Acil Çilingir?
         </h2>
         <p className="text-[#2E2E2E]">
-          Hemen arayın, dakikalar içinde kapınızdayız. Gemlik çilingir yorumlarında
-          5 yıldız alan ekibimiz hız, güven ve deneyimle yanınızda. Umurbey
-          çilingir, Adliye Mahallesi çilingir, Balıkpazarı çilingir dahil tüm
-          bölgelere 7/24 hizmet.
+          Hemen arayın, dakikalar içinde kapınızdayız. Mustafakemalpaşa ve
+          Karacabey genelinde 7/24 hizmet. Hız, güven ve deneyimle yanınızdayız.
         </p>
         <div className="rounded-xl bg-[#0A2540] p-6 text-white">
           <p className="mb-4 text-lg font-semibold">

@@ -1,10 +1,10 @@
 "use client";
 
 export default function StickyCTA() {
-  const phoneNumber = "+905414303761";
-  const whatsappNumber = "905414303761";
+  const phoneNumber = "+905413433490";
+  const whatsappNumber = "905413433490";
   const whatsappMessage = encodeURIComponent(
-    "Merhaba, Gemlik çilingir hizmeti hakkında bilgi almak istiyorum."
+    "Merhaba, Mustafakemalpaşa ve Karacabey çilingir hizmeti hakkında bilgi almak istiyorum."
   );
 
   return (
@@ -16,7 +16,7 @@ export default function StickyCTA() {
       <a
         href={`tel:${phoneNumber}`}
         className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-[#F5B301] px-4 py-4 text-base font-bold text-[#0A2540] shadow-lg transition hover:bg-[#e5a300] md:order-1 md:px-6 md:py-4 md:text-lg"
-        aria-label="Hemen ara: 0541 430 37 61"
+        aria-label="Hemen ara: 0541 343 34 90"
       >
         <svg
           className="h-6 w-6 shrink-0"

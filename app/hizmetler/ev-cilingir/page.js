@@ -5,11 +5,11 @@ import ServiceLayout from "@/components/ServiceLayout";
 export const metadata = {
   title: "Ev Çilingir Hizmeti",
   description:
-    "Gemlik ev çilingir hizmeti. Anahtar kilit sorunlarında hız, güven ve deneyim. Orhaniye, Küçükkumla, Kurşunlu dahil tüm mahallelere. Hemen arayın: 0541 430 37 61",
+    "Mustafakemalpaşa ve Karacabey ev çilingir hizmeti. Anahtar kilit sorunlarında hız, güven ve deneyim. Hamidiye, Barış, Gazi, Emirsultan dahil tüm mahallelere. Hemen arayın: 0541 343 34 90",
   openGraph: {
-    title: "Ev Çilingir Hizmeti | Gemlik Çilingir",
+    title: "Ev Çilingir Hizmeti | Pasa Çilingir",
     description:
-      "Gemlik ev çilingir hizmeti. Anahtar kilit sorunlarında dakikalar içinde kapınızdayız.",
+      "Mustafakemalpaşa ve Karacabey ev çilingir hizmeti. Anahtar kilit sorunlarında dakikalar içinde kapınızdayız.",
     images: ["/logo.png"],
   },
 };
@@ -17,8 +17,8 @@ export const metadata = {
 export default function EvCilingirPage() {
   return (
     <ServiceLayout
-      title="Gemlik Ev Çilingir Hizmeti"
-      description="Gemlik ev çilingir hizmeti ile anahtar ve kilit sorunlarınızda yanınızdayız. Orhaniye Mahallesi, Küçükkumla, Kurşunlu dahil tüm Gemlik mahallelerine hızlı ulaşıyoruz."
+      title="Mustafakemalpaşa & Karacabey Ev Çilingir Hizmeti"
+      description="Mustafakemalpaşa ve Karacabey ev çilingir hizmeti ile anahtar ve kilit sorunlarınızda yanınızdayız. Hamidiye, Barış, Gazi, Emirsultan dahil tüm mahallelere 7/24 hızlı ulaşıyoruz."
       imageSrc="/images/clg-img-2.jpg"
       imageAlt="Ev çilingir hizmeti"
     >
@@ -26,7 +26,7 @@ export default function EvCilingirPage() {
         <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-2.jpg"
-            alt="Gemlik ev çilingir hizmeti"
+            alt="Mustafakemalpaşa Karacabey ev çilingir hizmeti"
             width={800}
             height={450}
             className="h-auto max-h-80 w-full object-cover"
@@ -34,12 +34,12 @@ export default function EvCilingirPage() {
           />
         </div>
         <p className="text-lg leading-relaxed text-[#2E2E2E]">
-          Gemlik ev çilingir hizmeti ile kapınızda. Anahtar kilitte mi kaldı?
-          Kilit bozuldu mu? Gemlik anahtarcı olarak yılların deneyimiyle evinize
-          hızlı ve güvenli çözümler sunuyoruz. Bir telefon kadar uzağınızdayız.
+          Mustafakemalpaşa ve Karacabey ev çilingir hizmeti ile kapınızda. Anahtar
+          kilitte mi kaldı? Kilit bozuldu mu? Yılların deneyimiyle evinize hızlı
+          ve güvenli çözümler sunuyoruz. Bir telefon kadar uzağınızdayız.
         </p>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Gemlik Ev Çilingir Neler Yapar?
+          Ev Çilingir Neler Yapar?
         </h2>
         <ul className="list-disc space-y-2 pl-6">
           <li>Kapı kilidi açma (kilitte kalan anahtar)</li>
@@ -49,13 +49,12 @@ export default function EvCilingirPage() {
           <li>Akıllı kilit kurulumu</li>
         </ul>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Hizmet Verdiğimiz Mahalleler
+          Hizmet Verdiğimiz Bölgeler
         </h2>
         <p className="text-[#2E2E2E]">
-          Orhaniye Mahallesi Gemlik çilingir hizmeti, Küçükkumla çilingir,
-          Kurşunlu çilingir, Umurbey çilingir, Adliye Mahallesi çilingir,
-          Balıkpazarı çilingir, Eşref Dinçer Mahallesi çilingir dahil tüm
-          bölgelere 7/24 ulaşıyoruz.
+          Bursa Mustafakemalpaşa ve Karacabey ilçelerinde 7/24 ev çilingir
+          hizmeti. Hamidiye Mahallesi, Barış Mahallesi, Gazi Mahallesi,
+          Emirsultan Mahallesi dahil tüm mahallelere hızlı ulaşıyoruz.
         </p>
         <div className="rounded-xl bg-gray-50 p-6">
           <p className="mb-4 font-semibold text-[#0A2540]">

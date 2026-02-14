@@ -5,11 +5,11 @@ import ServiceLayout from "@/components/ServiceLayout";
 export const metadata = {
   title: "Kasa Çilingir",
   description:
-    "Gemlik kasa çilingir hizmeti. Kasa açma, şifre sıfırlama, elektronik kasa tamiri. İşletme ve ev için güvenilir çözümler. 0541 430 37 61",
+    "Mustafakemalpaşa ve Karacabey kasa çilingir hizmeti. Kasa açma, şifre sıfırlama, elektronik kasa tamiri. İşletme ve ev için güvenilir çözümler. 0541 343 34 90",
   openGraph: {
-    title: "Kasa Çilingir | Gemlik Çilingir",
+    title: "Kasa Çilingir | Pasa Çilingir",
     description:
-      "Gemlik kasa çilingir - Kasa açma, şifre sıfırlama. Profesyonel hizmet.",
+      "Mustafakemalpaşa ve Karacabey kasa çilingir - Kasa açma, şifre sıfırlama.",
     images: ["/logo.png"],
   },
 };
@@ -17,8 +17,8 @@ export const metadata = {
 export default function KasaCilingirPage() {
   return (
     <ServiceLayout
-      title="Gemlik Kasa Çilingir"
-      description="Gemlik kasa çilingir hizmeti ile kasa açma, şifre sıfırlama ve elektronik kasa tamiri. İşletmeniz veya eviniz için güvenilir kasa çilingir çözümleri."
+      title="Mustafakemalpaşa & Karacabey Kasa Çilingir"
+      description="Mustafakemalpaşa ve Karacabey kasa çilingir hizmeti ile kasa açma, şifre sıfırlama ve elektronik kasa tamiri. İşletmeniz veya eviniz için güvenilir çözümler."
       imageSrc="/images/clg-img-5.webp"
       imageAlt="Kasa çilingir hizmeti"
     >
@@ -26,7 +26,7 @@ export default function KasaCilingirPage() {
         <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-5.webp"
-            alt="Gemlik kasa çilingir"
+            alt="Kasa çilingir Mustafakemalpaşa Karacabey"
             width={800}
             height={450}
             className="h-auto max-h-80 w-full object-cover"
@@ -34,12 +34,12 @@ export default function KasaCilingirPage() {
           />
         </div>
         <p className="text-lg leading-relaxed">
-          Gemlik kasa çilingir hizmeti. Kasa açılmıyor mu? Şifreyi mi
-          unuttunuz? İşletmeniz veya eviniz için profesyonel kasa çilingir
-          hizmeti. Hız, güven ve deneyimle yanınızdayız.
+          Mustafakemalpaşa ve Karacabey kasa çilingir hizmeti. Kasa açılmıyor mu?
+          Şifreyi mi unuttunuz? İşletmeniz veya eviniz için profesyonel kasa
+          çilingir hizmeti. Hız, güven ve deneyimle yanınızdayız.
         </p>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Gemlik Kasa Çilingir Hizmetleri
+          Kasa Çilingir Hizmetleri
         </h2>
         <ul className="list-disc space-y-2 pl-6">
           <li>Kasa açma (şifre unutuldu)</li>
@@ -49,12 +49,12 @@ export default function KasaCilingirPage() {
           <li>Kasa anahtarı yapımı</li>
         </ul>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Güvenilir Gemlik Çilingir
+          Güvenilir Çilingir Hizmeti
         </h2>
         <p className="text-[#2E2E2E]">
-          Kasa işlemlerinde güven ön planda. Gemlik çilingir ekibimiz
-          profesyonel ekipman ve yılların deneyimiyle hizmet veriyor. Acil
-          kasa açma ihtiyacınızda hemen arayın. 7/24 gemlik çilingir hizmeti.
+          Kasa işlemlerinde güven ön planda. Mustafakemalpaşa ve Karacabey
+          genelinde profesyonel ekipman ve yılların deneyimiyle 7/24 hizmet
+          veriyoruz. Acil kasa açma ihtiyacınızda hemen arayın.
         </p>
         <div className="rounded-xl bg-gray-50 p-6">
           <p className="mb-4 font-semibold text-[#0A2540]">

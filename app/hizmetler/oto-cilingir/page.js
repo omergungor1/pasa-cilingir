@@ -5,11 +5,11 @@ import ServiceLayout from "@/components/ServiceLayout";
 export const metadata = {
   title: "Oto Çilingir",
   description:
-    "Gemlik oto çilingir hizmeti. Araç anahtarı kilitte kaldı mı? Gemlik çilingir numarası ile hemen arayın. Dakikalar içinde yanınızdayız: 0541 430 37 61",
+    "Mustafakemalpaşa ve Karacabey oto çilingir hizmeti. Araç anahtarı kilitte kaldı mı? Hemen arayın, dakikalar içinde yanınızdayız: 0541 343 34 90",
   openGraph: {
-    title: "Oto Çilingir | Gemlik Çilingir",
+    title: "Oto Çilingir | Pasa Çilingir",
     description:
-      "Gemlik oto çilingir - Araç kilidi, anahtar sorunları. Hemen arayın.",
+      "Mustafakemalpaşa ve Karacabey oto çilingir - Araç kilidi, anahtar sorunları.",
     images: ["/logo.png"],
   },
 };
@@ -17,8 +17,8 @@ export const metadata = {
 export default function OtoCilingirPage() {
   return (
     <ServiceLayout
-      title="Gemlik Oto Çilingir"
-      description="Gemlik oto çilingir hizmeti ile araç kilidi ve anahtar sorunlarınızda yanınızdayız. Anahtar kilitte kaldı mı? Gemlik çilingir numarası ile hemen arayın."
+      title="Mustafakemalpaşa & Karacabey Oto Çilingir"
+      description="Mustafakemalpaşa ve Karacabey oto çilingir hizmeti ile araç kilidi ve anahtar sorunlarınızda yanınızdayız. Anahtar kilitte kaldı mı? Hemen arayın."
       imageSrc="/images/clg-img-4.jpg"
       imageAlt="Oto çilingir hizmeti"
     >
@@ -26,7 +26,7 @@ export default function OtoCilingirPage() {
         <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-4.jpg"
-            alt="Gemlik oto çilingir"
+            alt="Oto çilingir Mustafakemalpaşa Karacabey"
             width={800}
             height={450}
             className="h-auto max-h-80 w-full object-cover"
@@ -34,13 +34,12 @@ export default function OtoCilingirPage() {
           />
         </div>
         <p className="text-lg leading-relaxed">
-          Gemlik oto çilingir hizmeti. Araç anahtarı kilitte mi kaldı? Kapı
-          kilidi açılmıyor mu? Gemlik çilingir numarası ile hemen arayın.
-          Profesyonel ekip dakikalar içinde yanınızda. Tüm marka ve modellere
-          hizmet veriyoruz.
+          Mustafakemalpaşa ve Karacabey oto çilingir hizmeti. Araç anahtarı
+          kilitte mi kaldı? Kapı kilidi açılmıyor mu? Hemen arayın. Profesyonel
+          ekip dakikalar içinde yanınızda. Tüm marka ve modellere hizmet veriyoruz.
         </p>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          Gemlik Oto Çilingir Hizmetleri
+          Oto Çilingir Hizmetleri
         </h2>
         <ul className="list-disc space-y-2 pl-6">
           <li>Araç kapısı kilidi açma</li>
@@ -50,12 +49,12 @@ export default function OtoCilingirPage() {
           <li>Akıllı anahtar programlama</li>
         </ul>
         <h2 className="text-xl font-bold text-[#0A2540]">
-          7/24 Gemlik Oto Çilingir
+          7/24 Oto Çilingir
         </h2>
         <p className="text-[#2E2E2E]">
-          Gece yarısı araç sorunu mu yaşadınız? Gemlik oto çilingir ekibimiz 7/24
-          hazır. Hemen arayın, dakikalar içinde kapınızdayız. Gemlik çilingir
-          yorumlarında müşteri memnuniyeti birinci önceliğimiz.
+          Gece yarısı araç sorunu mu yaşadınız? Mustafakemalpaşa ve Karacabey
+          genelinde oto çilingir ekibimiz 7/24 hazır. Hemen arayın, dakikalar
+          içinde kapınızdayız.
         </p>
         <div className="rounded-xl bg-gray-50 p-6">
           <p className="mb-4 font-semibold text-[#0A2540]">

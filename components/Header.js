@@ -16,13 +16,13 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo.png"
-            alt="Gemlik Çilingir - Logo"
+            alt="Pasa Çilingir - Logo"
             width={48}
             height={48}
             className="h-10 w-10 object-contain sm:h-12 sm:w-12"
           />
           <span className="text-lg font-bold text-white sm:text-xl">
-            Gemlik Çilingir
+            Pasa Çilingir
           </span>
         </Link>
 
@@ -61,9 +61,9 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="tel:+905414303761"
+              href="tel:+905413433490"
               className="rounded-lg bg-[#F5B301] px-4 py-2 font-bold text-[#0A2540] transition hover:bg-[#e5a300]"
-              aria-label="Hemen ara: 0541 430 37 61"
+              aria-label="Hemen ara: 0541 343 34 90"
             >
               Hemen Ara
             </a>
@@ -143,9 +143,9 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="tel:+905414303761"
+                href="tel:+905413433490"
                 className="block rounded-lg bg-[#F5B301] px-4 py-3 text-center font-bold text-[#0A2540]"
-                aria-label="Hemen ara: 0541 430 37 61"
+                aria-label="Hemen ara: 0541 343 34 90"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Hemen Ara

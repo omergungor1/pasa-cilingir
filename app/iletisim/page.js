@@ -4,10 +4,10 @@ import { SITE } from "@/lib/constants";
 export const metadata = {
   title: "İletişim",
   description:
-    "Gemlik çilingir iletişim. Telefon: 0541 430 37 61. Adres: Hamidiye, Cumhuriyet Cd. No:62, Gemlik/Bursa. 7/24 ulaşın.",
+    "Pasa Çilingir iletişim. Telefon: 0541 343 34 90. Adres: Barış mahallesi, Fatih Cd. No:16, Mustafakemalpaşa/Bursa. 7/24 ulaşın.",
   openGraph: {
-    title: "İletişim | Gemlik Çilingir",
-    description: "Gemlik çilingir iletişim bilgileri. Hemen arayın.",
+    title: "İletişim | Pasa Çilingir",
+    description: "Mustafakemalpaşa ve Karacabey çilingir iletişim bilgileri.",
     images: ["/logo.png"],
   },
 };
@@ -28,8 +28,8 @@ export default function IletisimPage() {
             İletişim
           </h1>
           <p className="max-w-2xl text-lg text-white/90">
-            Gemlik çilingir hizmeti için bize ulaşın. Bir telefon kadar
-            uzağınızdayız.
+            Mustafakemalpaşa ve Karacabey çilingir hizmeti için bize ulaşın. Bir
+            telefon kadar uzağınızdayız.
           </p>
         </div>
       </section>

@@ -1,14 +1,18 @@
 import Link from "next/link";
-import { SITE, MAHALLELER } from "@/lib/constants";
+import {
+  SITE,
+  MUSTAFAKEMALPASA_MAHALLELER,
+  KARACABEY_MAHALLELER,
+} from "@/lib/constants";
 
 export const metadata = {
   title: "Hizmet Bölgelerimiz",
   description:
-    "Gemlik çilingir hizmet bölgeleri. Orhaniye, Küçükkumla, Kurşunlu, Umurbey, Adliye, Balıkpazarı, Eşref Dinçer Mahallesi dahil tüm Gemlik mahallelerine 7/24 hizmet.",
+    "Bursa Mustafakemalpaşa ve Karacabey çilingir hizmet bölgeleri. Hamidiye, Barış, Gazi, Emirsultan dahil tüm mahallelere 7/24 hizmet.",
   openGraph: {
-    title: "Hizmet Bölgelerimiz | Gemlik Çilingir",
+    title: "Hizmet Bölgelerimiz | Pasa Çilingir",
     description:
-      "Gemlik çilingir - Tüm mahallelere 7/24 hizmet. Hemen arayın.",
+      "Mustafakemalpaşa ve Karacabey çilingir - Tüm mahallelere 7/24 hizmet. Hemen arayın.",
     images: ["/logo.png"],
   },
 };
@@ -29,9 +33,9 @@ export default function HizmetBolgelerimizPage() {
             Hizmet Bölgelerimiz
           </h1>
           <p className="mb-6 max-w-2xl text-lg text-white/90">
-            Gemlik çilingir hizmetimiz Bursa Gemlik ilçesi genelinde. Tüm
-            mahallelere 7/24 hızlı ulaşım. Hemen arayın, dakikalar içinde
-            kapınızdayız.
+            Bursa Mustafakemalpaşa ve Karacabey ilçelerinde 7/24 çilingir
+            hizmeti. Tüm mahallelere hızlı ulaşım. Hemen arayın, dakikalar
+            içinde kapınızdayız.
           </p>
           <a
             href={`tel:${SITE.phone}`}
@@ -49,18 +53,17 @@ export default function HizmetBolgelerimizPage() {
       <section className="py-12 md:py-16">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="mb-8 text-2xl font-bold text-[#0A2540]">
-            Gemlik Mahallelerinde Çilingir Hizmeti
+            Mustafakemalpaşa (Bursa) Mahallelerinde Çilingir Hizmeti
           </h2>
           <p className="mb-8 text-lg text-[#2E2E2E]">
-            Gemlik çilingir olarak ilçenin tüm mahallelerine hizmet veriyoruz.
-            Orhaniye Mahallesi Gemlik çilingir hizmeti, Küçükkumla çilingir,
-            Kurşunlu çilingir, Umurbey çilingir, Adliye Mahallesi çilingir,
-            Balıkpazarı çilingir, Eşref Dinçer Mahallesi çilingir - hepsi bir
-            telefon kadar uzakta.
+            Mustafakemalpaşa çilingir olarak ilçenin tüm mahallelerine 7/24
+            hizmet veriyoruz. Hamidiye Mahallesi, Barış Mahallesi, Yalıntaş
+            Mahallesi, Atatürk Mahallesi, Yunus Emre Mahallesi dahil tüm bölgelere bir
+            telefon kadar uzağınızdayız.
           </p>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {MAHALLELER.map((mahalle) => (
+            {MUSTAFAKEMALPASA_MAHALLELER.map((mahalle) => (
               <div
                 key={mahalle}
                 className="rounded-xl border border-gray-200 bg-white p-6 shadow transition hover:shadow-lg"
@@ -69,7 +72,39 @@ export default function HizmetBolgelerimizPage() {
                   {mahalle} Çilingir
                 </h3>
                 <p className="mb-4 text-[#2E2E2E]">
-                  {mahalle} Gemlik çilingir hizmeti ile yanınızdayız. Ev, oto,
+                  {mahalle} Mustafakemalpaşa çilingir hizmeti ile yanınızdayız.
+                  Ev, oto, kasa çilingir ihtiyaçlarınızda 7/24 hızlı müdahale.
+                </p>
+                <a
+                  href={`tel:${SITE.phone}`}
+                  className="inline-block font-semibold text-[#F5B301] hover:underline"
+                >
+                  Hemen Ara
+                </a>
+              </div>
+            ))}
+          </div>
+
+          <h2 className="mb-8 mt-16 text-2xl font-bold text-[#0A2540]">
+            Karacabey (Bursa) Mahallelerinde Çilingir Hizmeti
+          </h2>
+          <p className="mb-8 text-lg text-[#2E2E2E]">
+            Karacabey çilingir ekibimiz ilçenin tüm mahallelerine 7/24 ulaşıyor.
+            Gazi Mahallesi, Emirsultan Mahallesi, Esentepe Mahallesi, Saadet
+            Mahallesi dahil tüm bölgelere hızlı hizmet.
+          </p>
+
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {KARACABEY_MAHALLELER.map((mahalle) => (
+              <div
+                key={mahalle}
+                className="rounded-xl border border-gray-200 bg-white p-6 shadow transition hover:shadow-lg"
+              >
+                <h3 className="mb-2 text-lg font-bold text-[#0A2540]">
+                  {mahalle} Çilingir
+                </h3>
+                <p className="mb-4 text-[#2E2E2E]">
+                  {mahalle} Karacabey çilingir hizmeti ile yanınızdayız. Ev, oto,
                   kasa çilingir ihtiyaçlarınızda 7/24 hızlı müdahale.
                 </p>
                 <a

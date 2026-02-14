@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Çerez Politikası",
   description:
-    "Gemlik çilingir çerez politikası. Web sitemizde kullanılan çerezler hakkında bilgi.",
+    "Pasa Çilingir çerez politikası. Web sitemizde kullanılan çerezler hakkında bilgi.",
   robots: {
     index: true,
     follow: true,
@@ -32,7 +32,7 @@ export default function CerezPolitikasiPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div className="prose prose-lg max-w-none text-[#2E2E2E]">
             <p className="lead">
-              Bu çerez politikası, cilingirgemlik.com web sitesinde kullanılan
+              Bu çerez politikası, pasacilingir.com web sitesinde kullanılan
               çerezler hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.
             </p>
 
