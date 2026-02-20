@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Mustafakemalpaşa ve Karacabey ev çilingir hizmeti. Anahtar kilit sorunlarında hız, güven ve deneyim. Hamidiye, Barış, Gazi, Emirsultan dahil tüm mahallelere. Hemen arayın: 0541 343 34 90",
   openGraph: {
-    title: "Ev Çilingir Hizmeti | Pasa Çilingir",
+    title: "Ev Çilingir Hizmeti | Paşa Çilingir",
     description:
       "Mustafakemalpaşa ve Karacabey ev çilingir hizmeti. Anahtar kilit sorunlarında dakikalar içinde kapınızdayız.",
     images: ["/logo.png"],
@@ -22,8 +22,8 @@ export default function EvCilingirPage() {
       imageSrc="/images/clg-img-2.jpg"
       imageAlt="Ev çilingir hizmeti"
     >
-      <div className="space-y-8 text-[#2E2E2E]">
-        <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
+      <div className="mx-auto max-w-2xl space-y-8 text-[#2E2E2E]">
+        <div className="overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-2.jpg"
             alt="Mustafakemalpaşa Karacabey ev çilingir hizmeti"

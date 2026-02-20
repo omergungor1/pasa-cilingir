@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "7/24 çilingir hizmeti. Mustafakemalpaşa ve Karacabey genelinde gece yarısı, bayram, tatil fark etmez. Hemen arayın: 0541 343 34 90",
   openGraph: {
-    title: "7/24 Çilingir Servisi | Pasa Çilingir",
+    title: "7/24 Çilingir Servisi | Paşa Çilingir",
     description:
       "7/24 çilingir - Mustafakemalpaşa ve Karacabey'de her an yanınızdayız.",
     images: ["/logo.png"],
@@ -22,8 +22,8 @@ export default function YediYirmiDortCilingirPage() {
       imageSrc="/images/clg-img-6.jpg"
       imageAlt="7/24 çilingir servisi"
     >
-      <div className="space-y-8 text-[#2E2E2E]">
-        <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
+      <div className="mx-auto max-w-2xl space-y-8 text-[#2E2E2E]">
+        <div className="overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-6.jpg"
             alt="7/24 çilingir servisi"

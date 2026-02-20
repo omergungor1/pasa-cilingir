@@ -4,9 +4,9 @@ import { SITE } from "@/lib/constants";
 export const metadata = {
   title: "İletişim",
   description:
-    "Pasa Çilingir iletişim. Telefon: 0541 343 34 90. Adres: Barış mahallesi, Fatih Cd. No:16, Mustafakemalpaşa/Bursa. 7/24 ulaşın.",
+    "Paşa Çilingir iletişim. Telefon: 0541 343 34 90. Adres: Barış mahallesi, Fatih Cd. No:16, Mustafakemalpaşa/Bursa. 7/24 ulaşın.",
   openGraph: {
-    title: "İletişim | Pasa Çilingir",
+    title: "İletişim | Paşa Çilingir",
     description: "Mustafakemalpaşa ve Karacabey çilingir iletişim bilgileri.",
     images: ["/logo.png"],
   },

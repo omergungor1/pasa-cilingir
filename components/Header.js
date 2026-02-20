@@ -16,13 +16,13 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo.png"
-            alt="Pasa Çilingir - Logo"
+            alt="Paşa Çilingir - Logo"
             width={48}
             height={48}
             className="h-10 w-10 object-contain sm:h-12 sm:w-12"
           />
           <span className="text-lg font-bold text-white sm:text-xl">
-            Pasa Çilingir
+            Paşa Çilingir
           </span>
         </Link>
 
@@ -37,7 +37,7 @@ export default function Header() {
           </li>
           <li>
             <Link
-              href="/hizmetler/ev-cilingir"
+              href="/hizmetler"
               className="text-white/90 transition hover:text-[#F5B301]"
             >
               Hizmetler
@@ -49,6 +49,14 @@ export default function Header() {
               className="text-white/90 transition hover:text-[#F5B301]"
             >
               Bölgeler
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/blog"
+              className="text-white/90 transition hover:text-[#F5B301]"
+            >
+              Blog
             </Link>
           </li>
           <li>
@@ -116,7 +124,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/hizmetler/ev-cilingir"
+                href="/hizmetler"
                 className="block rounded-lg px-4 py-2 text-white/90 hover:bg-white/10 hover:text-[#F5B301]"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -130,6 +138,15 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Bölgeler
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/blog"
+                className="block rounded-lg px-4 py-2 text-white/90 hover:bg-white/10 hover:text-[#F5B301]"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Blog
               </Link>
             </li>
             <li>

@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Mustafakemalpaşa ve Karacabey kasa çilingir hizmeti. Kasa açma, şifre sıfırlama, elektronik kasa tamiri. İşletme ve ev için güvenilir çözümler. 0541 343 34 90",
   openGraph: {
-    title: "Kasa Çilingir | Pasa Çilingir",
+    title: "Kasa Çilingir | Paşa Çilingir",
     description:
       "Mustafakemalpaşa ve Karacabey kasa çilingir - Kasa açma, şifre sıfırlama.",
     images: ["/logo.png"],
@@ -22,8 +22,8 @@ export default function KasaCilingirPage() {
       imageSrc="/images/clg-img-5.webp"
       imageAlt="Kasa çilingir hizmeti"
     >
-      <div className="space-y-8 text-[#2E2E2E]">
-        <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
+      <div className="mx-auto max-w-2xl space-y-8 text-[#2E2E2E]">
+        <div className="overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-5.webp"
             alt="Kasa çilingir Mustafakemalpaşa Karacabey"

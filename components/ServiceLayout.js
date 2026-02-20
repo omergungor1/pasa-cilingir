@@ -28,7 +28,7 @@ export default function ServiceLayout({
               Ana Sayfa
             </Link>
             <span className="mx-2">/</span>
-            <Link href="/#hizmetler" className="hover:text-[#F5B301]">
+            <Link href="/hizmetler" className="hover:text-[#F5B301]">
               Hizmetler
             </Link>
             <span className="mx-2">/</span>
@@ -51,7 +51,7 @@ export default function ServiceLayout({
         </div>
       </section>
       <section className="bg-white py-12 md:py-16">
-        <div className="mx-auto max-w-4xl px-4 prose prose-lg prose-gray max-w-none prose-headings:text-[#0A2540] prose-p:text-[#2E2E2E] prose-li:text-[#2E2E2E]">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 prose prose-lg prose-gray max-w-none prose-headings:text-[#0A2540] prose-p:text-[#2E2E2E] prose-li:text-[#2E2E2E]">
           {children}
         </div>
       </section>

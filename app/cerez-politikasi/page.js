@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Çerez Politikası",
   description:
-    "Pasa Çilingir çerez politikası. Web sitemizde kullanılan çerezler hakkında bilgi.",
+    "Paşa Çilingir çerez politikası. Web sitemizde kullanılan çerezler hakkında bilgi.",
   robots: {
     index: true,
     follow: true,

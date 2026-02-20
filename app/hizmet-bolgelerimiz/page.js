@@ -4,13 +4,14 @@ import {
   MUSTAFAKEMALPASA_MAHALLELER,
   KARACABEY_MAHALLELER,
 } from "@/lib/constants";
+import { slugify, ILCE_SLUG_MUSTAFAKEMALPASA, ILCE_SLUG_KARACABEY } from "@/lib/utils";
 
 export const metadata = {
   title: "Hizmet Bölgelerimiz",
   description:
     "Bursa Mustafakemalpaşa ve Karacabey çilingir hizmet bölgeleri. Hamidiye, Barış, Gazi, Emirsultan dahil tüm mahallelere 7/24 hizmet.",
   openGraph: {
-    title: "Hizmet Bölgelerimiz | Pasa Çilingir",
+    title: "Hizmet Bölgelerimiz | Paşa Çilingir",
     description:
       "Mustafakemalpaşa ve Karacabey çilingir - Tüm mahallelere 7/24 hizmet. Hemen arayın.",
     images: ["/logo.png"],
@@ -75,12 +76,13 @@ export default function HizmetBolgelerimizPage() {
                   {mahalle} Mustafakemalpaşa çilingir hizmeti ile yanınızdayız.
                   Ev, oto, kasa çilingir ihtiyaçlarınızda 7/24 hızlı müdahale.
                 </p>
-                <a
-                  href={`tel:${SITE.phone}`}
-                  className="inline-block font-semibold text-[#F5B301] hover:underline"
+                <Link
+                  href={`/hizmet-bolgelerimiz/${ILCE_SLUG_MUSTAFAKEMALPASA}/${slugify(mahalle)}`}
+                  className="inline-flex items-center gap-1 font-semibold text-[#F5B301] hover:underline"
                 >
-                  Hemen Ara
-                </a>
+                  Mahalle detayı
+                  <span aria-hidden="true">→</span>
+                </Link>
               </div>
             ))}
           </div>
@@ -107,12 +109,13 @@ export default function HizmetBolgelerimizPage() {
                   {mahalle} Karacabey çilingir hizmeti ile yanınızdayız. Ev, oto,
                   kasa çilingir ihtiyaçlarınızda 7/24 hızlı müdahale.
                 </p>
-                <a
-                  href={`tel:${SITE.phone}`}
-                  className="inline-block font-semibold text-[#F5B301] hover:underline"
+                <Link
+                  href={`/hizmet-bolgelerimiz/${ILCE_SLUG_KARACABEY}/${slugify(mahalle)}`}
+                  className="inline-flex items-center gap-1 font-semibold text-[#F5B301] hover:underline"
                 >
-                  Hemen Ara
-                </a>
+                  Mahalle detayı
+                  <span aria-hidden="true">→</span>
+                </Link>
               </div>
             ))}
           </div>
@@ -122,7 +125,7 @@ export default function HizmetBolgelerimizPage() {
               Merkez Adresimiz
             </h3>
             <p className="mb-4 text-[#2E2E2E]">{SITE.address}</p>
-            <div className="flex flex-wrap gap-4">
+            <div className="mb-6 flex flex-wrap gap-4">
               <a
                 href={`tel:${SITE.phone}`}
                 className="font-bold text-[#F5B301] hover:underline"
@@ -137,6 +140,18 @@ export default function HizmetBolgelerimizPage() {
               >
                 Haritada Göster
               </a>
+            </div>
+            <div className="overflow-hidden rounded-xl shadow-lg">
+              <iframe
+                src={SITE.mapEmbed}
+                width="100%"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Paşa Çilingir - Merkez adres konumu"
+              />
             </div>
           </div>
         </div>

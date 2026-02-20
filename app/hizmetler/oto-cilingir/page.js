@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Mustafakemalpaşa ve Karacabey oto çilingir hizmeti. Araç anahtarı kilitte kaldı mı? Hemen arayın, dakikalar içinde yanınızdayız: 0541 343 34 90",
   openGraph: {
-    title: "Oto Çilingir | Pasa Çilingir",
+    title: "Oto Çilingir | Paşa Çilingir",
     description:
       "Mustafakemalpaşa ve Karacabey oto çilingir - Araç kilidi, anahtar sorunları.",
     images: ["/logo.png"],
@@ -19,13 +19,13 @@ export default function OtoCilingirPage() {
     <ServiceLayout
       title="Mustafakemalpaşa & Karacabey Oto Çilingir"
       description="Mustafakemalpaşa ve Karacabey oto çilingir hizmeti ile araç kilidi ve anahtar sorunlarınızda yanınızdayız. Anahtar kilitte kaldı mı? Hemen arayın."
-      imageSrc="/images/clg-img-4.jpg"
+      imageSrc="/images/kemalpasa-oto-cilingir.jpg"
       imageAlt="Oto çilingir hizmeti"
     >
-      <div className="space-y-8 text-[#2E2E2E]">
-        <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
+      <div className="mx-auto max-w-2xl space-y-8 text-[#2E2E2E]">
+        <div className="overflow-hidden rounded-xl">
           <Image
-            src="/images/clg-img-4.jpg"
+            src="/images/kemalpasa-oto-cilingir.jpg"
             alt="Oto çilingir Mustafakemalpaşa Karacabey"
             width={800}
             height={450}

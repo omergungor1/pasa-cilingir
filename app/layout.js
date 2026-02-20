@@ -8,8 +8,8 @@ import StickyCTA from "@/components/StickyCTA";
 export const metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: "Pasa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
-    template: "%s | Pasa Çilingir",
+    default: "Paşa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
+    template: "%s | Paşa Çilingir",
   },
   description:
     "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız. Hemen arayın: 0541 343 34 90",
@@ -26,8 +26,8 @@ export const metadata = {
     type: "website",
     locale: "tr_TR",
     url: SITE.domain,
-    siteName: "Pasa Çilingir",
-    title: "Pasa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
+    siteName: "Paşa Çilingir",
+    title: "Paşa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
     description:
       "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız.",
     images: [
@@ -35,13 +35,13 @@ export const metadata = {
         url: "/logo.png",
         width: 512,
         height: 512,
-        alt: "Pasa Çilingir Logo",
+        alt: "Paşa Çilingir Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pasa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
+    title: "Paşa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
     description:
       "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir.",
     images: ["/logo.png"],

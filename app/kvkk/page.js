@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "KVKK Aydınlatma Metni",
   description:
-    "Pasa Çilingir KVKK aydınlatma metni. Kişisel verilerinizin işlenmesi hakkında bilgilendirme.",
+    "Paşa Çilingir KVKK aydınlatma metni. Kişisel verilerinizin işlenmesi hakkında bilgilendirme.",
   robots: {
     index: true,
     follow: true,
@@ -38,7 +38,7 @@ export default function KvkkPage() {
 
             <h2>1. Veri Sorumlusu</h2>
             <p>
-              Pasa Çilingir olarak kişisel verilerinizin işlenmesinden sorumluyuz.
+              Paşa Çilingir olarak kişisel verilerinizin işlenmesinden sorumluyuz.
             </p>
 
             <h2>2. İşlenen Kişisel Veriler</h2>

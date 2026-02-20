@@ -5,6 +5,7 @@ import {
   MUSTAFAKEMALPASA_MAHALLELER,
   KARACABEY_MAHALLELER,
 } from "@/lib/constants";
+import { slugify, ILCE_SLUG_MUSTAFAKEMALPASA, ILCE_SLUG_KARACABEY } from "@/lib/utils";
 
 export default function HomePage() {
   return (
@@ -232,11 +233,13 @@ export default function HomePage() {
               </h3>
               <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
                 {MUSTAFAKEMALPASA_MAHALLELER.map((mahalle) => (
-                  <li
-                    key={mahalle}
-                    className="rounded-lg bg-white p-4 text-center font-medium text-[#0A2540] shadow"
-                  >
-                    {mahalle} çilingir
+                  <li key={mahalle}>
+                    <Link
+                      href={`/hizmet-bolgelerimiz/${ILCE_SLUG_MUSTAFAKEMALPASA}/${slugify(mahalle)}`}
+                      className="block rounded-lg bg-white p-4 text-center font-medium text-[#0A2540] shadow transition hover:bg-[#F5B301] hover:text-[#0A2540]"
+                    >
+                      {mahalle} çilingir
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -247,11 +250,13 @@ export default function HomePage() {
               </h3>
               <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
                 {KARACABEY_MAHALLELER.map((mahalle) => (
-                  <li
-                    key={mahalle}
-                    className="rounded-lg bg-white p-4 text-center font-medium text-[#0A2540] shadow"
-                  >
-                    {mahalle} çilingir
+                  <li key={mahalle}>
+                    <Link
+                      href={`/hizmet-bolgelerimiz/${ILCE_SLUG_KARACABEY}/${slugify(mahalle)}`}
+                      className="block rounded-lg bg-white p-4 text-center font-medium text-[#0A2540] shadow transition hover:bg-[#F5B301] hover:text-[#0A2540]"
+                    >
+                      {mahalle} çilingir
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -271,7 +276,7 @@ export default function HomePage() {
       <section className="bg-white py-16 md:py-20">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="mb-12 text-center text-2xl font-bold text-[#0A2540] md:text-3xl">
-            Neden Pasa Çilingir?
+            Neden Paşa Çilingir?
           </h2>
           <div className="grid gap-8 md:grid-cols-3">
             <div className="rounded-xl bg-[#0A2540] p-8 text-center text-white">
@@ -307,7 +312,7 @@ export default function HomePage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Pasa Çilingir - Konum"
+              title="Paşa Çilingir - Konum"
             />
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-4">

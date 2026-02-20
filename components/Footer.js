@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <h3 className="mb-4 text-lg font-bold text-[#F5B301]">
-              Pasa Çilingir
+              Paşa Çilingir
             </h3>
             <p className="text-sm text-white/90">
               7/24 Mustafakemalpaşa ve Karacabey çilingir hizmeti. Ev, oto, kasa
@@ -21,6 +21,11 @@ export default function Footer() {
               Hızlı Linkler
             </h3>
             <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/hizmetler" className="hover:text-[#F5B301]">
+                  Hizmetler
+                </Link>
+              </li>
               <li>
                 <Link href="/hizmetler/ev-cilingir" className="hover:text-[#F5B301]">
                   Ev Çilingir
@@ -39,6 +44,11 @@ export default function Footer() {
               <li>
                 <Link href="/hizmet-bolgelerimiz" className="hover:text-[#F5B301]">
                   Hizmet Bölgelerimiz
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-[#F5B301]">
+                  Blog
                 </Link>
               </li>
               <li>
@@ -64,6 +74,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 flex flex-wrap gap-4 border-t border-white/20 pt-8 text-sm">
+          <Link href="/sitemap.xml" className="hover:text-[#F5B301]">
+            Sitemap
+          </Link>
           <Link href="/gizlilik-politikasi" className="hover:text-[#F5B301]">
             Gizlilik Politikası
           </Link>
@@ -75,7 +88,7 @@ export default function Footer() {
           </Link>
         </div>
         <p className="mt-4 text-center text-sm text-white/70">
-          © {currentYear} Pasa Çilingir. Tüm hakları saklıdır.
+          © {currentYear} Paşa Çilingir. Tüm hakları saklıdır.
         </p>
       </div>
     </footer>

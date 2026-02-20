@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Gizlilik Politikası",
   description:
-    "Pasa Çilingir gizlilik politikası. Kişisel verilerinizin korunması hakkında bilgi edinin.",
+    "Paşa Çilingir gizlilik politikası. Kişisel verilerinizin korunması hakkında bilgi edinin.",
   robots: {
     index: true,
     follow: true,
@@ -32,7 +32,7 @@ export default function GizlilikPolitikasiPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div className="prose prose-lg max-w-none text-[#2E2E2E]">
             <p className="lead">
-              Bu gizlilik politikası, Pasa Çilingir olarak kişisel verilerinizi
+              Bu gizlilik politikası, Paşa Çilingir olarak kişisel verilerinizi
               nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.
             </p>
 

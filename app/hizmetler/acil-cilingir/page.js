@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Acil çilingir hizmeti 7/24. Mustafakemalpaşa ve Karacabey genelinde gece gündüz dakikalar içinde kapınızdayız. Hemen arayın: 0541 343 34 90",
   openGraph: {
-    title: "Acil Çilingir | Pasa Çilingir",
+    title: "Acil Çilingir | Paşa Çilingir",
     description:
       "Acil çilingir - Mustafakemalpaşa ve Karacabey'de 7/24 yanınızdayız.",
     images: ["/logo.png"],
@@ -22,8 +22,8 @@ export default function AcilCilingirPage() {
       imageSrc="/images/clg-img-3.webp"
       imageAlt="Acil çilingir hizmeti"
     >
-      <div className="space-y-8 text-[#2E2E2E]">
-        <div className="mx-auto max-w-2xl overflow-hidden rounded-xl">
+      <div className="mx-auto max-w-2xl space-y-8 text-[#2E2E2E]">
+        <div className="overflow-hidden rounded-xl">
           <Image
             src="/images/clg-img-3.webp"
             alt="Acil çilingir Mustafakemalpaşa Karacabey"
