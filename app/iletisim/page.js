@@ -81,6 +81,18 @@ export default function IletisimPage() {
             >
               Haritada Göster
             </a>
+            <div className="mt-6 overflow-hidden rounded-xl shadow-lg">
+              <iframe
+                src={SITE.mapEmbed}
+                width="100%"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Paşa Çilingir - İletişim konumu"
+              />
+            </div>
           </div>
 
           <div className="mt-8 rounded-xl bg-[#0A2540] p-8 text-center text-white">

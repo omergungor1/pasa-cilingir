@@ -15,12 +15,16 @@ export const metadata = {
     "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız. Hemen arayın: 0541 343 34 90",
   keywords: [
     "mustafakemalpaşa çilingir",
+    "kemalpaşa çilingir",
+    "kemalpaşa nöbetçi çilingir",
     "karacabey çilingir",
+    "karacabey nöbetçi çilingir",
     "bursa çilingir",
     "mustafakemalpaşa anahtarcı",
     "karacabey anahtarcı",
     "7/24 çilingir bursa",
     "acil çilingir mustafakemalpaşa",
+    "acil çilingir karacabey",
   ],
   openGraph: {
     type: "website",
@@ -29,10 +33,10 @@ export const metadata = {
     siteName: "Paşa Çilingir",
     title: "Paşa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
     description:
-      "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız.",
+      "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir servisi. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız.",
     images: [
       {
-        url: "/logo.png",
+        url: `${SITE.domain}/logo.png`,
         width: 512,
         height: 512,
         alt: "Paşa Çilingir Logo",
@@ -44,7 +48,7 @@ export const metadata = {
     title: "Paşa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
     description:
       "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir.",
-    images: ["/logo.png"],
+    images: [`${SITE.domain}/logo.png`],
   },
   robots: {
     index: true,
