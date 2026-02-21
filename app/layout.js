@@ -36,7 +36,7 @@ export const metadata = {
       "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir servisi. Ev, oto, kasa çilingir. Dakikalar içinde kapınızdayız.",
     images: [
       {
-        url: `${SITE.domain}/logo.png`,
+        url: "https://pasacilingir.com/logo.png",
         width: 512,
         height: 512,
         alt: "Paşa Çilingir Logo",
@@ -48,7 +48,7 @@ export const metadata = {
     title: "Paşa Çilingir | Bursa Mustafakemalpaşa & Karacabey 7/24 Çilingir",
     description:
       "Bursa Mustafakemalpaşa ve Karacabey'de 7/24 acil çilingir hizmeti. Ev, oto, kasa çilingir.",
-    images: [`${SITE.domain}/logo.png`],
+    images: ["https://pasacilingir.com/logo.png"],
   },
   robots: {
     index: true,
